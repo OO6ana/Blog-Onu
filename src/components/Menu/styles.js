@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const NavBox = styled.nav`
-    background-color: yellow;
+    width: 100%;
+    background-color: aliceblue;
 `
 export const Menu = styled.ul`
-    background-color: aliceblue;
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
 
     padding: 8px 0;
 
