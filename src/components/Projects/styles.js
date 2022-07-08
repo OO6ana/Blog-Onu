@@ -1,16 +1,22 @@
 import styled from "styled-components"
 
 export const Container = styled.section`
-    border: 1px solid red;
-
-    margin-top: 20px;
-
-    h4 {
-        padding: 10px 0;
-    }
+    margin-top: 50px;
 `
 
 export const CardBox = styled.div`
     display: flex;
     justify-content: space-between;
+
+    img{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+`
+export const InfoBox = styled.div``
+export const ImgBox = styled.div`
+    img{
+        
+    }
 `

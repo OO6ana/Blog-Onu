@@ -1,32 +1,26 @@
 import styled from "styled-components"
 
 export const Header = styled.header`
-    border: 1px solid black;
     display: flex;
+    justify-content: center;
     align-items: center;
-
-    gap: 30px;
-
-    padding: 20px 0;
 `
 export const ImageBox = styled.div`
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    overflow: hidden;
-
-    img {
-        width: 100%;
-    }
-`
-export const InfoBox = styled.section`
-    width: 80%;
+    width: 30%;
     display: flex;
-    justify-content: space-between;
-`
 
-export const SocialMediaBox = styled.div`
-    img {
-        width: 40px;
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
     }
 `
+export const Divider = styled.div``
+export const InfoBox = styled.section`
+    img{
+        width: 20px;
+        height: 20px;
+        margin: 4px;
+    }
+`
+export const SocialMediaBox = styled.div``

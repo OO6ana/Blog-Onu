@@ -12,7 +12,6 @@ export const Card = ({
                 <S.ImageBox>
                     <img src={image} alt={textAlternative}/>
                 </S.ImageBox>
-
                 <p>{title}</p>
             </a>
         </S.Card>
